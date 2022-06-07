@@ -1,0 +1,80 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="round"></div>
+    <div class="stats-container">
+        <div id="huskar">
+            <button onclick="objectStats()"></button>
+        </div>
+        <div id="action">
+            <button onclick="huskarAttack()">Attack</button>
+            <button id="innerFire" , onclick="innerFire();">InnerFire</button>
+            <button id="heal" onclick="healing()"> Healing</button>
+            <button id="lifebreak" onclick="lifeBreak()"> LifeBreak</button>
+            <button id="manarefresh" onclick="manaRefresh();">Refill Mana</button>
+            <button id="armorfixer" onclick="fixArmor();">fixArmor</button>
+        </div>
+        <br>
+        <div id="roshan">
+            <button onclick="objectStats()"></button>
+        </div>
+        <div id="actionroshan">
+            <button onclick="roshanAttack();">Attack</button>
+            <button onclick="mortalHit();">mortalHit</button>
+
+
+        </div>
+
+
+        <script src="./js/main.js"></script>
+</body>
+
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <div id="round"></div>
+    <div class="table">
+        <div class="heros-stat">
+            <div class="heros-button">
+                <button id="btn" class="btn1" onclick="heroAttack()">Attack (a)</button>
+                <button id="btn" class="btn2" onclick="heroSkill()">InnerFire (q)</button>
+                <button id="btn" class="btn3" onclick="heroUltimate()">LifeBreak (w)</button>
+                <button id="btn" class="btn4" onclick="heroHeal()">InnerVitality(e)</button>
+                <button id="btn" class="btn5" onclick="heroFixArmor()">ArmorFix(r)</button>
+                <button id="btn" class="btn6" onclick="heroAddMana()">ReplenishMana(d)</button>
+            </div>
+            <table id="heroes"></table>
+        </div>
+        <span class="vs">VS</span>
+        <div class="enemy-stat">
+            <table id="enemy"></table>
+        </div>
+    </div>
+    <button class= "reset" onclick="reset()">Reset</button>
+    <div class="img">
+    <img src="/img/emojisky.com-7395310.png" alt="">
+    <img src="/img/png-clipart-the-international-2018-dota-2-dragon-creep-video-game-others-gold-claw-removebg-preview.png" alt="">
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

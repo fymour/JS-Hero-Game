@@ -1,0 +1,121 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/img/wp2024421.webp);
+    background-size: cover;
+    
+}
+#round{
+    display: flex;
+    align-items: center;
+    
+} 
+.table{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+.table .heros-button{
+    /* padding: 20px; */
+    margin: 20px;
+    flex-direction: column;
+}
+.heros-stat{
+    width: 200px;
+    height: 300px;
+    /* padding: 30px; */
+    /* margin: 20px; */
+    display: flex;
+    align-items: center;
+    background-color: goldenrod;
+    border-radius: 50px;
+} 
+.heros-stat span{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heros-button{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+.heros-button button{
+    color: rebeccapurple;
+    margin: 10px;
+}
+.btn1{
+background: red;
+}
+
+.btn2{
+    background: orange;
+}
+
+.btn3{
+    background: tomato;
+}
+
+.btn4{
+    background: green;
+}
+
+.btn5{
+    background: aliceblue;
+}
+
+.btn6{
+    background: skyblue;
+}
+.vs{
+    font-size: 40px;
+    color: red;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.enemy-stat{
+    width: 200px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: goldenrod;
+    border-radius: 50px;
+}
+.enemy-stat span{
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.reset{
+    position: absolute;
+    right: 670px;
+    top: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: royalblue;
+    border-color: royalblue;
+}
+.img img{
+    width: 600px;
+    height: 400px;
+}
